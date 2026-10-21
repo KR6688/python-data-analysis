@@ -9,7 +9,9 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "islp>=0.4.1",
+    "numpy>=2.0.0",
     "pandas>=3.0.6",
+    "scikit-learn>=1.6.0",
     "statsmodels>=0.15.0",
 ]
 

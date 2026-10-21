@@ -1585,14 +1585,18 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "islp" },
+    { name = "numpy" },
     { name = "pandas" },
+    { name = "scikit-learn" },
     { name = "statsmodels" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "islp", specifier = ">=0.4.1" },
+    { name = "numpy", specifier = ">=2.0.0" },
     { name = "pandas", specifier = ">=3.0.6" },
+    { name = "scikit-learn", specifier = ">=1.6.0" },
     { name = "statsmodels", specifier = ">=0.15.0" },
 ]
 
